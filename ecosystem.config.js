@@ -1,6 +1,10 @@
 module.exports = {
     apps: [{
-      
+        
+            "name": "recipes",
+            "script": "npm",
+            "args" : "start"
+        
     }],
     deploy: {
       production: {
