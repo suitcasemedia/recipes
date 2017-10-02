@@ -10,11 +10,8 @@ module.exports = {
         key: '~/.ssh/jimmy-purple-laptop.pem',
         ref: 'origin/master',
         repo: 'git@github.com:suitcasemedia/recipes.git',
-<<<<<<< HEAD
         path: '/home/ubuntu/recipes',
-=======
         path: '/home/ubuntu/',
->>>>>>> 0ae4a10a5f2dfc3b9744b0c5b890c4be7cef11ed
         'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
       }
     }
