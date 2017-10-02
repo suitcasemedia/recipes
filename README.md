@@ -1,10 +1,10 @@
-Technical challenge for fullstack JavaScript software engineer at BBC account team
+# Technical challenge for fullstack JavaScript software engineer at BBC account team
 
 
-Below are install and run instructions 
+## Below are install and run instructions 
 
 
-Install script
+### Install script
  
 
 Install script is a one step process
@@ -12,10 +12,10 @@ cd recipes-website and run
 
 ‘npm installAll’
 
-Troubleshooting
+### Troubleshooting
 You may need to install nodemon globally
 
-Windows Users 
+### Windows Users 
 
 You need to npm install  in ‘frontend’ and ‘backend’ manually
  
@@ -33,7 +33,7 @@ npm start'
 
 
 
-Tools used
+##Tools used
 
 This project contains a Node API server built with Express and  a Lokijs in-memory database.
 The front end  React app generated with create-react-app under `frontend/`.
