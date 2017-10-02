@@ -1,0 +1,16 @@
+{
+  "name": "recipes-website",
+  "version": "1.0.0",
+  "description": "Technical challenge for full stack JavaScript position at BBC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently 'cd backend && nodemon main.js --ignore auto_generated_recipes.json' 'cd frontend && npm start' ",
+    "installAll": "npm install && cd frontend && npm install && cd ../backend && npm install"
+  },
+  "author": "Jimmy Connelly",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "concurrently": "^3.5.0",
+    "react-simple-paginate": "^1.1.0"
+  }
+}
