@@ -1,7 +1,6 @@
 module.exports = {
     apps: [{
-      name: 'recipes',
-      script: './backend/server.js'
+      
     }],
     deploy: {
       production: {
