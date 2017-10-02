@@ -33,7 +33,7 @@ npm start'
 
 
 
-##Tools used
+## Tools used
 
 This project contains a Node API server built with Express and  a Lokijs in-memory database.
 The front end  React app generated with create-react-app under `frontend/`.
