@@ -9,7 +9,7 @@ module.exports = {
         host: 'ec2-34-212-110-50.us-west-2.compute.amazonaws.com',
         key: '~/.ssh/jimmy-purple-laptop.pem',
         ref: 'origin/master',
-        repo: 'git@github.com:roberttod/tutorial-pt-2.git',
+        repo: 'git@github.com:suitcasemedia/recipes.git',
         path: '/home/ubuntu/server/recipes',
         'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
       }
