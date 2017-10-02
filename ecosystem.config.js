@@ -10,7 +10,7 @@ module.exports = {
         ref: 'origin/master',
         repo: 'git@github.com:suitcasemedia/recipes.git',
         path: '/home/ubuntu/recipes',
-        'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
+        'post-deploy': 'npm installAll && npm start && pm2 startOrRestart ecosystem.config.js'
       }
     }
 }
