@@ -1,4 +1,4 @@
-# Technical challenge for fullstack JavaScript software engineer at BBC account team
+# Technical challenge for fullstack JavaScript engineer role
 
 ##
 To save you time I have delpoyed the app to AWS for demo purposes
@@ -14,7 +14,7 @@ http://ec2-34-212-110-50.us-west-2.compute.amazonaws.com/
 Install script is a one step process
 cd recipes-website and run 
 
-‘npm installAll’
+‘npm  run installAll’
 
 ### Troubleshooting
 You may need to install nodemon globally
@@ -39,8 +39,9 @@ npm start'
 
 ## Tools used
 
-This project contains a Node API server built with Express and  a Lokijs in-memory database.
-The front end  React app generated with create-react-app under `frontend/`.
+This project contains a Node API server built with Express and  a Lokijs in-memory database. This is located in `/backend/`
+
+The front end  React app generated with create-react-app under `/frontend/`.
 
 
 
