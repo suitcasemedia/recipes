@@ -1,5 +1,9 @@
 # Technical challenge for fullstack JavaScript software engineer at BBC account team
 
+##
+To save you time I have delpoyed the app to AWS for demo purposes
+
+http://ec2-34-212-110-50.us-west-2.compute.amazonaws.com/
 
 ## Below are install and run instructions 
 

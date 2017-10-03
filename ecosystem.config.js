@@ -1,10 +1,9 @@
 module.exports = {
     apps: [{
-        
             "name": "recipes",
             "script": "npm",
             "args" : "start"
-        
+           
     }],
     deploy: {
       production: {
@@ -14,7 +13,7 @@ module.exports = {
         ref: 'origin/master',
         repo: 'git@github.com:suitcasemedia/recipes.git',
         path: '/home/ubuntu/recipes',
-        'post-deploy': 'npm installAll && npm start && pm2 startOrRestart ecosystem.config.js'
+        'post-deploy': 'npm installAll && pm2 startOrRestart ecosystem.config.js'
       }
     }
 }
