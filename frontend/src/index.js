@@ -18,16 +18,7 @@ global.requestAnimationFrame = function(callback) {
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ 
 
 const createStoreWithMiddleware = composeEnhancers(applyMiddleware(promise))(createStore);
-/*
-const store = createStore(
-  reducer,
-  composeEnhancers(
-       applyMiddleware(logger)
-  )
- 
-//  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-)
-*/
+
 
 
 ReactDOM.render(

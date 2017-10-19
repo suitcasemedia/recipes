@@ -1,19 +1,19 @@
 import {loadRecipes, loadRecipe, starRecipe, filterRecipes, returnFilterChange} from '../../actions';
+jest.mock('../../actions/index')
+
 
 test('should return recipes object',()=>{
 
     const action = loadRecipes();
-    expect(action).toEqual({
-        "type" : "LOAD_RECIPES",
-        "payload": expect.any(Promise) // dont have a good test for this yet because it is coupled to api get call
+    expect(action.type).toEqual("LOAD_RECIPES") // dont have a good test for this yet because it is coupled to api get call
     })
-})
+
 
 test('should return a single recipe',()=>{
     const action = loadRecipe(1);
     expect(action).toEqual({
         "type" : "LOAD_RECIPE",
-        "payload": expect.any(Promise) // dont have a good test for this yet because it is coupled to api get call
+        "payload": expect.anything() // dont have a good test for this yet because it is coupled to api get call
     })
 })
 
